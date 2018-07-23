@@ -1,0 +1,128 @@
+.footer{
+  padding: 129px 0;
+  background: #1c2b33;
+}
+.footer__column-title{
+  margin-bottom: 54px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer__contacts{
+  font-size: 14px;
+  font-weight: 300;
+  color: #c0c0c0;
+  a{
+    color: inherit;
+    text-decoration: none;
+    &:hover, &:focus{
+      text-decoration: underline;
+    }
+  }
+}
+.footer__contacts-title{
+  font-size: 16px;
+  font-weight: 700;
+  color: #c0c0c0;
+}
+.footer__post-item{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #294453;
+  padding-bottom: 30px;
+  margin-bottom: 33px;
+  &:last-child{
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+.footer__post-img{
+  margin-right: 10px;
+}
+.footer__post-content{
+
+}
+.footer__post-title{
+  margin-bottom: 17px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #18cfab;
+}
+.footer__post-text{
+  margin-bottom: 17px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b2b2b2;
+}
+.footer__post-date{
+  font-size: 14px;
+  font-weight: 300;
+  color: #f1f1f1;
+}
+
+.footer__tags{
+  margin-bottom: 36px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid #294453;
+}
+.footer__tag-item{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 65px;
+  min-height: 37px;
+  margin-bottom: 5px;
+  border: 1px solid #acacac;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b8b8b8;
+  text-decoration: none;
+  &:hover,&:focus{
+    background: #18cfab;
+    border: 1px solid #18cfab;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+.footer__column-title_newsletter{
+  margin-bottom: 47px;
+}
+.footer__newsletter-text{
+  margin-bottom: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #b4b4b4;
+}
+.form-group_footer{
+  height: 33px;
+  margin-bottom: 0;
+}
+.footer_input{
+  height: 100%;
+  background: #22353f;
+  border: none;
+  border-radius: 0;
+  transition: all .2s ease;
+}
+.footer_button{
+  height: 100%;
+  border-radius: 0;
+  background: #294453;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #18cfab;
+}
+.footer__feed-item{
+  display: inline-flex;
+  margin-bottom: 5px;
+}
+@media screen and(max-width: 1200px){
+  .footer__column-title{
+    margin-top: 35px;
+  }
+}

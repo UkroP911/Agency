@@ -1,0 +1,1 @@
+{"version":3,"sources":["common.scss"],"names":[],"mappings":"AAAA;EACE,UAAS;EACT,WAAU;EACV,gBAAe,EAChB","file":"common.css","sourcesContent":["html, body{\n  margin: 0;\n  padding: 0;\n  font-size: 14px;\n}"]}

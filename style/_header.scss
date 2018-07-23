@@ -1,0 +1,21 @@
+.header{
+  background: #49473f;
+}
+.navbar-brand{
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  span{
+    font-weight: 700;
+    color: #18cfab;
+  }
+}
+.nav-link{
+  font-size: 13px;
+  font-weight: 700;
+  color: #b8b8b8;
+  text-transform: uppercase;
+  &:hover,&:focus{
+    color: #18cfab;
+  }
+}

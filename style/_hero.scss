@@ -1,0 +1,40 @@
+.hero{
+  padding: 136px 0;
+  background: #171717;
+}
+.hero__title{
+  margin-bottom: 36px;
+  font-size: 79px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero__subtitle{
+  margin-bottom: 136px;
+  font-size: 34px;
+  font-weight: 300;
+  color: #d4d4d4;
+}
+.hero__button-wrap{
+
+}
+.hero__btn{
+  padding: 25px 0;
+  margin-bottom: 10px;
+  width: 100%;
+  background: #18cfab;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: all .2s ease;
+  &:hover,&:focus{
+    transform: translateY(-10px);
+  }
+}
+
+@media screen and(max-width: 425px){
+  .hero__title{
+    font-size: 59px;
+  }
+}
