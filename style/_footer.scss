@@ -40,6 +40,10 @@
 }
 .footer__post-img{
   margin-right: 10px;
+  width: 75px;
+  img{
+    width: 100%;
+  }
 }
 .footer__post-content{
 
@@ -120,6 +124,14 @@
 .footer__feed-item{
   display: inline-flex;
   margin-bottom: 5px;
+  width: 75px;
+  height: 75px;
+  background: #ffffff;
+  img{
+    width: 100%;
+    //display: block;
+    height: auto;
+  }
 }
 @media screen and(max-width: 1200px){
   .footer__column-title{

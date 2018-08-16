@@ -102,20 +102,36 @@ html, body {
 
 .hero {
   padding: 136px 0;
-  background: #171717; }
+  position: relative; }
+
+.hero-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: url("../img/rename.jpg") no-repeat;
+  background-size: cover;
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  z-index: 1; }
 
 .hero__title {
   margin-bottom: 36px;
   font-size: 79px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffffff; }
+  color: #ffffff;
+  position: relative;
+  z-index: 2; }
 
 .hero__subtitle {
   margin-bottom: 136px;
   font-size: 34px;
   font-weight: 300;
-  color: #d4d4d4; }
+  color: #d4d4d4;
+  position: relative;
+  z-index: 2; }
 
 .hero__btn {
   padding: 25px 0;
@@ -127,7 +143,9 @@ html, body {
   text-transform: uppercase;
   color: #ffffff;
   -webkit-transition: all .2s ease;
-  transition: all .2s ease; }
+  transition: all .2s ease;
+  position: relative;
+  z-index: 2; }
   .hero__btn:hover, .hero__btn:focus {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px); }
@@ -291,7 +309,10 @@ html, body {
     margin-bottom: 0; }
 
 .footer__post-img {
-  margin-right: 10px; }
+  margin-right: 10px;
+  width: 75px; }
+  .footer__post-img img {
+    width: 100%; }
 
 .footer__post-title {
   margin-bottom: 17px;
@@ -375,7 +396,13 @@ html, body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  width: 75px;
+  height: 75px;
+  background: #ffffff; }
+  .footer__feed-item img {
+    width: 100%;
+    height: auto; }
 
 @media screen and (max-width: 1200px) {
   .footer__column-title {
